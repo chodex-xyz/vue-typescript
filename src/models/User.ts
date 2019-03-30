@@ -6,7 +6,8 @@ export default class User extends Model {
   static fields() {
     return {
       id: this.increment(),
-      name: this.string("")
+      name: this.string(""),
+      email: this.string("")
     };
   }
 }
